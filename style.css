@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap");
+
+a:link {
+  background-color: lightgoldenrodyellow;
+}
+a {
+  color: hotpink;
+  text-decoration: none;
+  border: 1px dotted #333;
+  padding: 7px;
+  margin-top: 50px;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+a:active {
+  background-color: white;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-family: "Bitcount Ink", system-ui;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 50px;
+  margin-left: 200px;
+  border: 1px solid #333;
+  padding: 50px;
+}
+#mlibox {
+  background: linear-gradient(to right, lightblue, rgb(28, 137, 173));
+  margin-left: 53px;
+  height: 800px;
+  width: 500px;
+}
+
+a.mlilink {
+  background-color: fuchsia;
+}
